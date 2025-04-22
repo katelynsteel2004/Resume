@@ -1,0 +1,83 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #f0f4f8; /* soft custom background */
+    color: #222; /* dark, readable font */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header or nav anchor links */
+  a {
+    color: #004aad;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section styling */
+  section.place {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Images */
+  section.place img {
+    border-radius: 8px;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  
+  /* Section headings */
+  section.place h2 {
+    color: #005b96;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  /* On-page anchor link */
+  #jump-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #eaeaea;
+    color: #555;
+    font-size: 14px;
+  }
+/* Custom content blocks */
+.info-box {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-left: 5px solid #007c91;
+    margin: 15px 0;
+  }
+  
+  .quote-box {
+    font-style: italic;
+    background-color: #f9f9f9;
+    border-left: 5px solid #bbb;
+    padding: 10px 15px;
+    margin: 20px 0;
+  }
+  
+  .fact-box {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffa500;
+    padding: 10px 15px;
+    margin: 15px 0;
+  }
+    

@@ -1,0 +1,104 @@
+/* Resetting some default margins and padding for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #007bff;  /* Blue background for navbar */
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0ad4e;  /* Gold color on hover */
+}
+
+/* Hero Section (about me) */
+section.py-5 {
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+h1.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #343a40; /* Dark grey color for title */
+}
+
+p.lead {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+/* Résumé Section */
+ul.list-group-flush {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul.list-group-flush .list-group-item {
+  font-size: 1.1rem;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+ul.list-group-flush .list-group-item:hover {
+  background-color: #f0f8ff;  /* Light blue hover background */
+}
+
+/* Add color to headers */
+h4 {
+  margin-top: 30px;
+  font-size: 1.6rem;
+  color: #007bff;  /* Matching blue header color */
+}
+
+/* Button styling (footer) */
+footer .btn-link {
+  background-color: #f0ad4e;  /* Gold button color */
+  color: white;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+footer .btn-link:hover {
+  background-color: #d9534f;  /* Red on hover */
+  color: white;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #343a40; /* Dark grey background */
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #f0ad4e;  /* Gold color for footer links */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
